@@ -156,8 +156,8 @@ if __name__=="__main__":
 	proxy.setHostName("127.0.0.1")
 	proxy.setPort(port)
 	QNetworkProxy.setApplicationProxy(proxy)
-	
-	app = QApplication([])
+
+	app = QApplication(sys.argv)
 	window = MainWindow()
 	logger.addHandler(LogReader(window))
 
