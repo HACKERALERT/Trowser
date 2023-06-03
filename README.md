@@ -9,3 +9,4 @@ To run it, you'll need these dependencies:
 ```
 pip install PyQt6 PyQt6-WebEngine torpy
 ```
+You may also need to restart Trowser multiple times to connect to Tor on "unreliable" networks.
